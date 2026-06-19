@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <style>
+        body{
+            background-color: rgb(175, 246, 246);
+        }
+        h1{
+            text-align:center;
+            font-size: 50px;
+        }
+        fieldset{
+            background-color:rgba(244, 241, 241, 0.619);
+            margin:50px; 
+            border: hsla(0, 20%, 97%, 0.034);
+
+        }
+        legend{
+            text-align:center;
+            font-size: 50px;
+            margin: 10px;
+        }
+        #submit{
+            text-align:center;
+        }
+        input{
+            border-radius:10px;
+            margin:10px;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Information</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            Name:<input type="text" name="name" placeholder="Your Name"><br><br>
+            Age:<input type="number" name="age" placeholder="Your Age"><br><br>
+            Course:<input type="text" name="course" placeholder="Your Course"><br><br>
+            E-mail:<input type="email" placeholder="e-mail ID"><br><br>
+            College:<input type="text" name="college" placeholder="College">
+                   
+        </fieldset>
+        <p id="submit">     
+        <input id="submit" type="submit">
+        <p>
+            
+    </form>
